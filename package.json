@@ -1,0 +1,13 @@
+{
+  "name": "shopping-mall-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Shopping mall demo monorepo",
+  "scripts": {
+    "dev": "npm run dev --prefix server",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "start": "npm run start --prefix server",
+    "build": "npm run build --prefix client"
+  }
+}
